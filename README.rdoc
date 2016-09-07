@@ -1,0 +1,37 @@
+= redmine_custom_field_views
+
+Excuse me, but this site supports only Japanese.
+
+== 概要
+
+デフォルトでは左右２列表示となるチケットのカスタムフィールドのうち、「長いテキスト」については１列で表示します。
+
+== インストール
+
+Redmineのインストールディレクトリで、以下のコマンドを実行したのち、Redmineを再起動してください。
+
+    $ cd plugins
+    $ git clone https://github.com/g301244/redmine_custom_field_views.git
+
+== Redmineの対象バージョン
+
+本プラグインは、Redmine 3.2.3, 3.3.0 で動作を確認しております。
+
+== 制限(現状、できていないこと)
+
+* チケットの一括編集画面は対応していません(そもそも、１列表示ですが)。
+* 「長いテキスト」のみ、無条件に１列表示となります。
+
+== 履歴
+
+* 0.1.0　初版
+
+== ライセンス
+
+本ソフトウェアは、MITライセンスのもとで配布いたします。
+
+Copyright (c) 2016 g301244
+
+Released under the MIT license
+
+http://opensource.org/licenses/mit-license.php

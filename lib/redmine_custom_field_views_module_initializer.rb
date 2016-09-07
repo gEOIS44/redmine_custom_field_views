@@ -1,0 +1,4 @@
+Rails.configuration.to_prepare do
+  require_dependency 'redmine_custom_field_views/patches/redmine_custom_field_views_application_helper_patch'
+  require_dependency 'redmine_custom_field_views/patches/redmine_custom_field_views_issues_helper_patch'
+end
