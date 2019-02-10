@@ -2,33 +2,39 @@
 
 Excuse me, but this site supports only Japanese.
 
-== �T�v
+== 概要
 
-�f�t�H���g�ł͍��E�Q��\���ƂȂ�`�P�b�g�̃J�X�^���t�B�[���h�̂����A�u�����e�L�X�g�v�ɂ��Ă͂P��ŕ\�����܂��B
+=== Redmine 3.3.x以前
+デフォルトでは左右２列表示となるチケットのカスタムフィールドのうち、「長いテキスト」については１列で表示します。
 
-== �C���X�g�[��
+=== Redmine 3.4.x以降
+デフォルトでは左右２列表示となるチケットのカスタムフィールドのうち、「ワイド表示」を指定したものについては１列で表示します。
+表示位置はRedmineデフォルトの「常に末尾」ではなく、設定した表示順の位置でワイド表示します。
 
-Redmine�̃C���X�g�[���f�B���N�g���ŁA�ȉ��̃R�}���h�����s�����̂��ARedmine���ċN�����Ă��������B
+== インストール
+
+Redmineのインストールディレクトリで、以下のコマンドを実行したのち、Redmineを再起動してください。
 
     $ cd plugins
     $ git clone https://github.com/g301244/redmine_custom_field_views.git
 
-== Redmine�̑Ώۃo�[�W����
+== Redmineの対象バージョン
 
-�{�v���O�C���́ARedmine 3.2.3, 3.3.0 �œ�����m�F���Ă���܂��B
+本プラグインは、Redmine 3.2.9, 4.0.0 で動作を確認しております。
 
-== ����(����A�ł��Ă��Ȃ�����)
+== 制限(現状、できていないこと)
 
-* �`�P�b�g�̈ꊇ�ҏW��ʂ͑Ή����Ă��܂���(���������A�P��\���ł���)�B
-* �u�����e�L�X�g�v�̂݁A�������ɂP��\���ƂȂ�܂��B
+* チケットの一括編集画面は対応していません(そもそも、１列表示ですが)
+* 「長いテキスト」のみ、無条件に１列表示となります(Redmine 3.3.x以前)
 
-== ����
+== 履歴
 
-* 0.1.0�@����
+* 0.1.0　初版
+* 0.2.0　Redmine4.0対応
 
-== ���C�Z���X
+== ライセンス
 
-�{�\�t�g�E�F�A�́AMIT���C�Z���X�̂��ƂŔz�z�������܂��B
+本ソフトウェアは、MITライセンスのもとで配布いたします。
 
 Copyright (c) 2016 g301244
 
